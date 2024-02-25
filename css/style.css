@@ -202,3 +202,82 @@ ul {
   text-align: center;
   color: #4a4a4a;
 }
+
+.optimization {
+  padding: 100px 0 75px 0;
+  height: 550px;
+  position: relative;
+}
+
+.optimization__img {
+  bottom: 0px;
+  left: 150px;
+  position: absolute;
+  z-index: -1; 
+}
+
+.optimization__why {
+  width: 750px;
+  margin-left: auto;
+}
+
+.optimization__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: left;
+  color: #299cbd;
+}
+
+.optimization__text {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.finish {
+  height: 450px;
+  background: url('../img/finish.jpg') center center/cover no-repeat;
+  padding: 68px 0 86px 0;
+}
+
+.title--white {
+  color:#efefef;
+}
+
+.finish__list {
+  margin-top: 40px;
+}
+
+.finish-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish-item {
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finish-item__circle {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  background-color: #B4E2FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish-item__text {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  color: #efefef;
+}
